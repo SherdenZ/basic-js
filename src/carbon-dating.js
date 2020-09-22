@@ -13,7 +13,7 @@ module.exports = function dateSample(sampleActivity) {
 
   let numSampleActivity = parseFloat(sampleActivity);
 
-  if (sampleActivity > 15 || sampleActivity < 0) {
+  if (numSampleActivity > 15 || numSampleActivity <= 0) {
     return false;
   }
 
